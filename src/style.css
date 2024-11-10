@@ -1,0 +1,78 @@
+/* Styling for the container holding the book cards */
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between each card */
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  /* Styling for individual book cards */
+  .book-card {
+    width: 250px; /* Set width for each card */
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for book cards */
+  .book-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling for book images */
+  .book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the book title */
+  .book-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the book description */
+  .book-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    height: 60px; /* Control the height for consistency */
+    overflow: hidden; /* Hide overflow text */
+  }
+  
+  /* Price styling */
+  .book-card .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the add to cart button */
+  .book-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for button */
+  .book-card button:hover {
+    background-color: #45a049;
+  }
+  

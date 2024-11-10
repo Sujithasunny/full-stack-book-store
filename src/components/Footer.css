@@ -1,0 +1,25 @@
+
+.footer {
+    background-color: #333; 
+    color: white; 
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .social-link {
+    color: #ff6347;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    text-decoration: underline;
+  }
+  
